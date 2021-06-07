@@ -201,6 +201,7 @@ p {
     Padding: 0 10px;
 }
 
+
 @media screen and (max-width: 768px) {
     header,
     header nav ul,
@@ -236,4 +237,11 @@ p {
         font-size: 75%;
     }
     
+
+
+    
 }
+
+
+
+
