@@ -200,3 +200,40 @@ p {
     display: inline;
     Padding: 0 10px;
 }
+
+@media screen and (max-width: 768px) {
+    header,
+    header nav ul,
+    .aboutMe,
+    .myWork,
+    .subCards,
+    .contactMe {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+    }
+
+    header nav ul li {
+        display: block;
+    }
+
+    .mainProjectCard,
+    .subProjectCard {
+        width: 100%;
+    }
+
+    h2 {
+        text-align: center;
+        border-bottom: 3px solid white;
+        border-right: none;
+
+    }
+
+    .contactMe ul li {
+        display: block;
+        text-align: center;
+        font-size: 75%;
+    }
+    
+}
