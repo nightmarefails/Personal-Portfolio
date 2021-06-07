@@ -1,7 +1,7 @@
 # Personal Portfolio
 
 ## Project Details
-This project was completed using HTMl and CSS. Using  Semantic HTML and more advanced CSS properties like flex-box and media queries I was assigned to make a webpage that was responsive to different device types and screen.
+This project was completed using HTML and CSS. Using Semantic HTML and more advanced CSS properties like flex-box and media queries I was assigned to make a webpage that was responsive to different device types and screen.
 
 
 To achieve the look I wanted for the my work cards I used flex-boxes with flex boxes inside of them which caused me some difficulty, but I was able to figure it out.
