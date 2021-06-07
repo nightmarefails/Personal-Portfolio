@@ -73,8 +73,14 @@ p {
     margin: 20px;
 }
 
+.aboutMe img {
+    flex 1 1 auto;
+    width: 40%;
+    height: auto;
+}
+
 .aboutMe section {
-    width: 75%;
+    width: 35%;
     flex: 1 1 auto;
     margin: 5px 5px 5px 5px;
     
@@ -206,6 +212,8 @@ p {
     header,
     header nav ul,
     .aboutMe,
+    .aboutMe section,
+    .aboutMe img,
     .myWork,
     .subCards,
     .contactMe {
