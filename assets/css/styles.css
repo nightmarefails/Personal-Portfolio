@@ -178,3 +178,25 @@ p {
     font-size: 24px;
     color: white;
 }
+
+.contactMe {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+.contactMe ul {
+    width: 75%;
+    flex: 1 1 auto;
+    margin: auto 5px auto 5px;
+    font-size: 48px;
+
+}
+
+.contactMe ul li {
+    display: inline;
+    Padding: 0 10px;
+}
