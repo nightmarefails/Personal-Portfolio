@@ -1,108 +1,123 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="assets/css/styles.css">
 
-    </head>
-    <body>
-        <header>
-            <h1>Harrison Armstrong</h1>
-            <nav>
-                <ul>
-                    <li><a href="#aboutMe">About Me</a></li>
-                    <li><a href="#myWork">My Work</a></li>
-                    <li><a href="#contactMe">Contact Me</a></li>
-                </ul>
-            </nav>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Harrison Armstrong</title>
+    <!-- UIkit CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/css/uikit.min.css" />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <!-- UIkit JS -->
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.7.1/dist/js/uikit-icons.min.js"></script>
+</head>
+
+<body>
+    <main>
+        <header class="uk-flex uk-flex-center uk-flex-wrap uk-flex-middle">
+            <img class="uk-border-circle uk-padding-large" data-src="./assets/images/My Image.jpg" width="400px" height="400px" uk-img />
+            <div>
+                <div>
+                    <h1>Harrison Armstrong</h1>
+                </div>
+                <div>
+                    <nav>
+                        <ul class="uk-subnav uk-subnav-divider">
+                            <li><a href="#aboutMe">About Me</a></li>
+                            <li><a href="#myWork">My Work</a></li>
+                            <li><a href="#contactMe">Contact Me</a></li>
+                            <li><a href="https://www.linkedin.com/in/nightmarefails">LinkedIn</a></li>
+                            <li><a href="https://www.github.com/nightmarefails">Github</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </header>
-        <main>
-            <article class="aboutMe" id="aboutMe">
-                <h2>About Me</h2>
-                <img src="assets/images/harrisonImage.jpg">
-                <section>
-                    <p>
-                        My name is Harrison Armstrong and I am a family man with a wife and two kids. We are currently expecting a third child as well. 
-                        I currently live in central Michigan.
- 
-                    </p>
-                    <p>
-                        I am mostly self taught at this point in time, but I am currently taking a Full Stack Web-Dev bootcamp from MSU. I also am expecting a certificate
-                        in Java Programming at the end of this summer term from Wilmington University. I have basic knowledge of Java, Python, C++, HTML, CSS, and JavaScript. 
-                    </p>
-                    <p>
-                        My hobbies are anything technology related. I enjoy tinkering with my homelab server and playing games with my friends online. I also enjoy camping, fishing, 
-                        and enjoying time with my family.
-                    </p>
+        <div class="uk-flex uk-margin" id="aboutMe">
+            <h2>About Me</h2>
+            <section class="uk-card uk-card-default">
+                <p>
+                    My name is Harrison Armstrong and I am a family man with a wife and
+                    two kids. We are currently expecting a third child as well. I
+                    currently live in central Michigan.
+                </p>
+                <p>
+                    I am mostly self taught at this point in time, but I am currently
+                    taking a Full Stack Web-Dev bootcamp from MSU. I also am expecting a
+                    certificate in Java Programming at the end of this summer term from
+                    Wilmington University. I have basic knowledge of Java, Python, C++,
+                    HTML, CSS, and JavaScript.
+                </p>
+                <p>
+                    My hobbies are anything technology related. I enjoy tinkering with
+                    my homelab server and playing games with my friends online. I also
+                    enjoy camping, fishing, and enjoying time with my family.
+                </p>
+            </section>
+        </div>
+        <div class="uk-margin uk-flex" id="myWork">
+            <h2>My Work</h2>
+            <div class="workBox">
+                <div id="featuredProject" class="uk-card uk-card-default">
+                    <a href="https://nightmarefails.github.io/bootcamp-week1-homework/">
+                        <img src="assets/images/HTML Refactor.png" alt="Website Image" />
+                    </a>
+                    <header>
+                        <h3>Semantic HTML Refactor</h3>
+                        <h3>HTML/CSS</h3>
+                    </header>
                 </section>
-            </article>
-            <article class="myWork" id="myWork">
-                <h2>My Work</h2>
-                <div class=workBox>
-                    <section class="mainProjectCard">
-                        <a href="https://nightmarefails.github.io/bootcamp-week1-homework/">
-                            <img src="assets/images/HTML Refactor.png" alt="Website Image">
+
+                <section class="subCards">
+                    <section class="subProjectCard">
+                        <a href="https://nightmarefails.github.io/Personal-Portfolio/">
+                            <img src="assets/images/portfolioImage.png" alt="Website Image" />
                         </a>
                         <header>
-                            <h3>Semantic HTML Refactor</h3>
+                            <h3>Personal Portfolio</h3>
                             <h3>HTML/CSS</h3>
                         </header>
                     </section>
-                    <section class="subCards ">
-                        <section class="subProjectCard">
-                            <a href="https://nightmarefails.github.io/Personal-Portfolio/">
-                                <img src="assets/images/portfolioImage.png" alt="Website Image">
-                            </a>      
-                            <header>
-                                <h3>Personal Portfolio</h3>
-                                <h3>HTML/CSS</h3>
-                            </header>
-                        </section>
-                        <section class="subProjectCard">
-                            <a href="https://nightmarefails.github.io/prework-about-me/">
-                                <img src="assets/images/AboutMe.png" alt="Website Image">
-                            </a>
-                            <header>
-                                <h3>About Me Website</h3>
-                                <h3>HTML</h3>
-                            </header>
-                        </section>
-                        <section class="subProjectCard">
-                            <a href="https://github.com/nightmarefails">
-                                <img src="assets/images/coming Soon Image.webp" alt="Coming Soon Image">
-                            </a>
-                            <header>
-                                <h3>Project Coming Soon</h3>
-                                <h3>Unknown</h3>
-                            </header>
-                        </section>
-                        <section class="subProjectCard">
-                            <a href="https://github.com/nightmarefails">
-                                <img src="assets/images/coming Soon Image.webp" alt="Comign Soon Image">
-                            </a>
-                            <header>
-                                <h3>Project Coming Soon</h3>
-                                <h3>Unknown</h3>
-                            </header>
-                        </section>
+                    <section class="subProjectCard">
+                        <a href="https://nightmarefails.github.io/prework-about-me/">
+                            <img src="assets/images/AboutMe.png" alt="Website Image" />
+                        </a>
+                        <header>
+                            <h3>About Me Website</h3>
+                            <h3>HTML</h3>
+                        </header>
                     </section>
-                </div>
-            </article>
-            <footer class="contactMe" id="contactMe">
-                <h2>Contact Me</h2>
-                <ul class = "contactMethods">
-                    <li>555-555-5555</li>
-                    <li>harrisonarmstrong93@gmail.com</li>
-                    <li>
-                        <a href="https://github.com/nightmarefails">Github</a>
-                    </li>
-                </ul>
-            </footer>
-        </main>
-    </body>
-
-
+                    <section class="subProjectCard">
+                        <a href="https://github.com/nightmarefails">
+                            <img src="assets/images/coming Soon Image.webp" alt="Coming Soon Image" />
+                        </a>
+                        <header>
+                            <h3>Project Coming Soon</h3>
+                            <h3>Unknown</h3>
+                        </header>
+                    </section>
+                    <section class="subProjectCard">
+                        <a href="https://github.com/nightmarefails">
+                            <img src="assets/images/coming Soon Image.webp" alt="Comign Soon Image" />
+                        </a>
+                        <header>
+                            <h3>Project Coming Soon</h3>
+                            <h3>Unknown</h3>
+                        </header>
+                    </section>
+                </section>
+            </div>
+        </div>
+        <footer class="contactMe" id="contactMe">
+            <h2>Contact Me</h2>
+            <ul class="contactMethods">
+                <li>307-202-2858</li>
+                <li>harrisonarmstrong93@gmail.com</li>
+            </ul>
+        </footer>
+        <script src="./assets/js/script.js"></script>
+    </main>
+</body>
 
 </html>
