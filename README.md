@@ -1,17 +1,16 @@
 # Personal Portfolio
 
 ## Project Details
-This project was completed using HTML and CSS. Using Semantic HTML and more advanced CSS properties like flex-box and media queries I was assigned to make a webpage that was responsive to different device types and screen.
+This project was completed using HTML, CSS, and Javascript. Using Semantic HTML and more advanced CSS properties like flex-box and media queries I was assigned to make a webpage that was responsive to different device types and screen.
 
+The website was styled using the UIKit CSS Framwork.
 
-To achieve the look I wanted for the my work cards I used flex-boxes with flex boxes inside of them which caused me some difficulty, but I was able to figure it out.
-
-I wanted to reproduce the mock-up example's cards that highlight when hovered. I had an issue with the img in the card being displayed on top of the border I was creating so I had to research a solution and found that giving the img a z-index value of -1 caused the box shadow to display how I wanted it to.
+I also wanted to demonstrate my ability to use API's so I used the github api to pull in my projects and dynamically created the cards with JavaScript. Now When I add more repos they will also show up on the site. All I will need to do is add an image and a description to the JavaScript code for the website.
 
 
 ## Deployed Webpage
 
-![Webpage](./assets/images/portfolioImage.png)
+![Webpage](./assets/images/personal-portfolio.jpeg)
 https://nightmarefails.github.io/Personal-Portfolio/
 
 
