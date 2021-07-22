@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: darkblue;
+    background-color: slategray;
     font-size: 18px;
     color: darkblue;
 }
@@ -20,12 +20,12 @@ header {
     text-align: center;
 }
 
-header h1 {
-    color: silver;
-}
-
 h1 {
     text-align: center;
+}
+
+#contactList {
+    font-size: 24px;
 }
 
 
