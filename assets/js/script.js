@@ -1,3 +1,12 @@
+const Descriptions = {
+    "Personal-Portfolio": "My Personal Portfolio made with HTML, CSS, and JavaScript. Using JQuery and UIKit",
+    "weather-app": "A simple weather app made using moment.js and bootstrap.",
+    "JavaScript-Password-Generator": "A Password Generator made using HTMl, CSS, and JavaScript",
+    "workday-calendar": "A workday callendar made using moment.js",
+    "Coding-Quiz": "A quiz to test your knowledge of basic web development concepts made using HTML, CSS, and JavaScript"
+
+}
+
 function getUserRepos() {
     fetch("https://api.github.com/users/nightmarefails/repos")
     .then(response => response.json())
@@ -30,7 +39,7 @@ function createProjects(repos) {
         });
         let cardBody = $('<div>', {
             class: "uk-card-body",
-            text: "desc"
+            text: Descriptions[repos[i].name],
         });
         let cardFooter = $('<div>', {
             class: "uk-card-footer"
