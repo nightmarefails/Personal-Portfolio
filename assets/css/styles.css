@@ -24,7 +24,9 @@ header h1 {
     color: silver;
 }
 
-
+h1 {
+    text-align: center;
+}
 
 
 
