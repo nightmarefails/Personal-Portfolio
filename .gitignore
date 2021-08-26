@@ -1,34 +1,3 @@
-Skip to content
-Search or jump to…
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@nightmarefails 
-nightmarefails
-/
-Personal-Portfolio
-1
-00
-Code
-Issues
-Pull requests
-1
-Actions
-Projects
-Wiki
-Security
-Insights
-Settings
-Personal-Portfolio/.gitignore
-@nightmarefails
-nightmarefails setup react project
-Latest commit cfec7c0 1 hour ago
- History
- 1 contributor
-23 lines (18 sloc)  310 Bytes
-  
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
@@ -52,16 +21,3 @@ Latest commit cfec7c0 1 hour ago
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
