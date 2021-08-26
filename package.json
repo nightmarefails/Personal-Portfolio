@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://nightmarefails.github.io/personal-portfolio",
+  "homepage": "http://nightmarefails.github.io/Personal-Portfolio",
   "dependencies": {
     "@carbon/icons-react": "^10.37.0",
     "@carbon/themes": "^10.40.0",

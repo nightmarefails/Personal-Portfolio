@@ -4,6 +4,7 @@ import Pages from './pages';
 function App() {
   const [user, setUser] = useState(null);
   useEffect(() => {
+    document.title= "My Portfolio"                              
     fetch('https://gitconnected.com/v1/portfolio/nightmarefails')
       .then(res => res.json())
       .then(user => {
