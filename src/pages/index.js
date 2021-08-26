@@ -12,10 +12,10 @@ const Pages = ({ user }) => {
         <Route exact path="/Personal-Portfolio/">
           <Me user={user} />
         </Route>
-        <Route path="/Personal-Portoflio/projects">
+        <Route path="/Personal-Portfolio/projects">
           <Projects user={user} />
         </Route>
-        <Route path="/Personal-Portoflio/work">
+        <Route path="/Personal-Portfolio/work">
           <Work user={user} />
         </Route>
         <Route path="/Personal-Portfolio/education/">

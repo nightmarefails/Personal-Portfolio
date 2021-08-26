@@ -7,8 +7,8 @@ import { StyledSideNav } from './styles';
 
 const items = [
   { name: 'Me', path: '/Personal-Portfolio/' },
-  { name: 'Projects', path: '/Personal-Portoflio/projects' },
-  { name: 'Work', path: '/Personal-Portoflio/work' },
+  { name: 'Projects', path: '/Personal-Portfolio/projects' },
+  { name: 'Work', path: '/Personal-Portfolio/work' },
   { name: 'Education', path: '/Personal-Portfolio/education/' },
 ];
 

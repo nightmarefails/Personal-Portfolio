@@ -33,7 +33,7 @@ const MobileNav = () => {
             tooltipPosition="bottom"
           />
         </NavLink>
-        <NavLink to="/Personal-Portfolio/education">
+        <NavLink to="/Personal-Portfolio/education/">
           <NavButton
             hasIconOnly
             renderIcon={Education32}
