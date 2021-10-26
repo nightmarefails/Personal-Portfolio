@@ -6,6 +6,7 @@ import MobileNav from '../MobileNav';
 
 import { StyledContent } from './styles';
 
+//Layout Component
 const Layout = ({ user, children }) => {
   return (
     <>
